@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Calculadora de Paso Planetario </title>
+   <LINK href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+   <center>
+   
+   <img  src="img/sistema-solar.jpg" class="banner" width="600" height="200" />
+   
+   <h1> Tu peso en otro planeta </h1>
+   
+   <p>Tu peso en la Tierra es muy distinto en otros planetas</p>
+  
+    <script>
+    var usuario = prompt("Digita Cual es Tu peso en Kilogramos?");
+    var planeta = parseInt(prompt("Elige tu planeta. \n1 = Mercurio. \n2 = Venus. \n3 = Marte. \n4 = Jupiter. \n5 = Saturno. \n6 = Urano. \n7 = Neptuno.\n8 = Tierra."));
+
+	var peso = parseInt(usuario);
+    var g_tierra = 9.8;
+    var g_mercurio = 2.7;
+    var g_venus = 8.8;
+    var g_marte = 3.7;
+    var g_jupiter = 22.8;
+    var g_saturno = 9;
+    var g_urano = 7.7;
+    var g_neptuno = 11;
+    var peso_final;
+    var nombre;
+
+    if(planeta == 1)
+    {
+      peso_final = peso * g_mercurio / g_tierra;
+      nombre = "Mercurio";
+        
+    }
+    else if(planeta == 2)
+    {
+      peso_final = peso * g_venus / g_tierra;
+      nombre = "Venus";
+    }
+    else if(planeta == 3)
+    {
+      peso_final = peso * g_marte / g_tierra;
+      nombre = "Marte";
+    }
+    else if(planeta == 4)
+    {
+      peso_final = peso * g_jupiter / g_tierra;
+      nombre = "Jupiter";
+    }
+    else if (planeta == 5)
+    {
+      peso_final = peso * g_saturno / g_tierra;
+      nombre = "Saturno";
+    }
+    else if (planeta == 6)
+    {
+      peso_final = peso * g_urano / g_tierra;
+      nombre = "Urano";
+    }
+    else if (planeta == 7)
+    {
+      peso_final = peso * g_neptuno / g_tierra;
+      nombre = "Neptuno";
+    }
+	else if (planeta == 8)
+    {
+      peso_final = peso * g_tierra / g_tierra;
+      nombre = "Tierra";
+	}
+    else
+    {
+      peso_final = 100000000000;
+    }
+
+
+    peso_final = parseInt(peso_final);
+    document.write("Tu peso en " + nombre + " es <strong> " + peso_final + " kilos. </strong> ");
+	
+  </script>
+  
+  </center>
+</body>
+</html>
