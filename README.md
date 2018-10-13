@@ -4,6 +4,6 @@ Programa HTML y Javascript que calcula tu peso el Sistema Solar, pidiendo tu pes
 Del curso de Programacion Basica de Platzi, donde se muetra como usar las funciones, y operaciones matematicas, asi como
 la estrucura IF-ELSE, y alertas en el navegador.
 
-<img align="center">
-![](img/sistema-solar.jpg)
-</>
+
+																										![](img/sistema-solar.jpg)
+
