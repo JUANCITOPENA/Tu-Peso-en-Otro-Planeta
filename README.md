@@ -1,6 +1,5 @@
 # Tu-Peso-en-Otro-Planeta
-Programa HTML y Javascript que calcula tu peso el Sistema Solar, pidiendo tu peso en Kilogramos y eligiendo el plante, donde se muetra como usar las funciones, y operaciones matematicas, asi como la estrucura IF-ELSE, y alertas en el navegador.
-
+Programa HTML, CSS y Javascript que calcula tu Peso en Otro Planeta del Sistema Solar, Requiriendo tu peso en Kilogramos y eligiendo el planeta que deas saber cuanto pesas alla de acuerdo a la Gravedad, se hace uso de funciones, Variables, estructuras selectivas, y comparativas en el Nevegador y operaciones matematicas.
 
 !!![](img/Imagen1.png)
 
